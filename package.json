@@ -1,0 +1,17 @@
+{
+  "name": "defi-dex-interface",
+  "version": "1.0.0",
+  "description": "Uniswap-style DEX frontend with swap, pool and limit order features",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "author": "rukinem",
+  "license": "MIT"
+}
